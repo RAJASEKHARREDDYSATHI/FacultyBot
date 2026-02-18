@@ -3,7 +3,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 from data_loader import load_data
 import os
 
-TOKEN = os.getenv("8395059416:AAHIfL4L8d5Dq-4oGOGTigPjWKSVYcru474")
+TOKEN = os.getenv("BOT_TOKEN")
+
 
 
 faculty_data = load_data()
